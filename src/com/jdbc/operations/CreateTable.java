@@ -1,9 +1,9 @@
-package com.jdbc.test;
+package com.jdbc.operations;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
-public class Test {
+public class CreateTable {
 	public static void main(String[] args)throws ClassNotFoundException,SQLException {
 	       String driver = "oracle.jdbc.driver.OracleDriver";
 	       String jdbc_url = "jdbc:oracle:thin:@localhost:1521:orcl";

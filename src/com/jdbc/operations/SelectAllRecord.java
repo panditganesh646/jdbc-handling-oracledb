@@ -1,4 +1,4 @@
-package com.jdbc.test;
+package com.jdbc.operations;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
